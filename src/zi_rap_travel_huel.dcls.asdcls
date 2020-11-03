@@ -1,0 +1,11 @@
+@EndUserText.label: 'Access control for ZI_RAP_TRAVEL_HUEL'
+@MappingRole: true
+define role ZI_RAP_TRAVEL_HUEL {
+    grant
+        select
+            on
+                ZI_RAP_TRAVEL_HUEL;
+//                    where
+//                        CurrencyCode = 'EUR';
+                        
+}
